@@ -1,0 +1,63 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 668
+  ClientWidth = 495
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Position.X = 32.000000000000000000
+    Position.Y = 272.000000000000000000
+    Size.Width = 425.000000000000000000
+    Size.Height = 362.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Viewport.Width = 421.000000000000000000
+    Viewport.Height = 358.000000000000000000
+  end
+  object btnObter: TButton
+    Position.X = 32.000000000000000000
+    Position.Y = 201.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 56.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'Obter'
+    OnClick = btnObterClick
+  end
+  object btnCadastrar: TButton
+    Position.X = 32.000000000000000000
+    Position.Y = 136.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Cadastar'
+    OnClick = btnCadastrarClick
+  end
+  object edtLogin: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    Position.X = 32.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 209.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TextPrompt = 'Login'
+  end
+  object edtSenha: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 4
+    Position.X = 32.000000000000000000
+    Position.Y = 88.000000000000000000
+    Size.Width = 209.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TextPrompt = 'Senha'
+  end
+end
